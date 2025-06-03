@@ -140,3 +140,39 @@ for (let i = 5; i > 0; i--) {
 for (let i = 0; i > 0; i++) {
   console.log(i);
 }
+
+///Infinite loop
+// for (let i = 1; i > 0; i++) {
+//   console.log(i);
+// }
+
+/// Fuction inside the loop
+function greet1(name, i) {
+  console.log("Hello", name, "!", i);
+}
+
+for (let i = 0; i < 10; i++) {
+  greet1("Tanishka", i);
+}
+
+/// Array with loops
+/// Print all the even numbers in the array
+
+let arr5 = [10, 6, 2, 0, 8, 3, 1, 5, 7, 100];
+let length = arr5.length;
+// console.log(arr5[0]);
+for (let i = 0; i < length; i++) {
+  //   console.log(arr5[i]);
+  if (arr5[i] % 2 == 0) {
+    console.log("Even number", arr5[i]);
+  } else {
+    console.log("Odd number", arr5[i]);
+  }
+}
+
+/// while loops in js
+let i = 1;
+while (i <= 5) {
+  console.log("Hellow", i);
+  i++;
+}
