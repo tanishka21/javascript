@@ -29,3 +29,6 @@ function merge(left, right) {
   }
   return [...res, ...left.slice(i), ...right.slice(j)];
 }
+
+/// Time Complexity : O(n log n)
+/// Space Complexity : O(n)
